@@ -89,6 +89,9 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+.active{
+  color: #580b1b;
+}
 
 abbr[title],
 abbr[data-original-title] {
@@ -11872,9 +11875,7 @@ section {
   padding: 100px 0;
 }
 
-section:nth-child(odd) {
-  background-color: #fbfcfc;
-}
+
 
 section.py-sm,
 section .py-sm {
@@ -11911,9 +11912,6 @@ section.has-bg-img.bg-img-1:after {
   background-image: url(../imgs/section.jpg);
 }
 
-section.has-bg-img.bg-img-2:after {
-  background-image: url(../imgs/header.jpg);
-}
 
 section .section-subtitle {
   font-size: calc(17px + (23 - 17) * ((100vw - 320px) / (1200 - 320)));
